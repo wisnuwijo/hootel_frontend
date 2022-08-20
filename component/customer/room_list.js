@@ -7,7 +7,7 @@ import RoomService from "../../pages/api/room_service"
 import DateHelper from "../../pages/api/util/date_helper"
 import DefaultLayout from "../layout/default"
 
-export default function roomList() {
+export default function RoomList() {
 
     const [roomList, setRoomList] = useState()
     const [promotionList, setPromotionList] = useState()

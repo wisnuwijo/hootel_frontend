@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import RoomDetailCustomer from "../../component/customer/room_detail"
 import DefaultLayout from "../../component/layout/default"
 
-export default function roomDetail() {
+export default function RoomDetail() {
 
     const [displayedComponent, setDisplayedComponent] = useState()
 

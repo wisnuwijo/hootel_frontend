@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useState } from "react"
 import Auth from './api/auth'
 
-export default function forgetPassword() {
+export default function ForgetPassword() {
 
     const [email, setEmail] = useState("")
     const [errorMsg, setErrorMsg] = useState("")

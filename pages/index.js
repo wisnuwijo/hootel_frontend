@@ -4,7 +4,7 @@ import Auth from './api/auth'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-export default function home() {
+export default function Home() {
 
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")

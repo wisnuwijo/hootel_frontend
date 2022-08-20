@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 import ReservationService from "../../api/reservation_service"
 import DateHelper from "../../api/util/date_helper"
 
-export default function index() {
+export default function Index() {
 
     const [reservationList, setReservationList] = useState()
     const [messsage, setMesssage] = useState("")

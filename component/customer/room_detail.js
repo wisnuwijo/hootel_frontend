@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import ReservationService from "../../pages/api/reservation_service"
 import RoomService from "../../pages/api/room_service"
 
-export default function roomDetail(props) {
+export default function RoomDetail(props) {
     const [roomDetail, setRoomDetail] = useState()
     const [errorMsg, setErrorMsg] = useState("")
 

@@ -4,7 +4,7 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import RoomService from "../../api/room_service"
 
-export default function index() {
+export default function Index() {
 
     const [roomList, setRoomList] = useState()
     const [messsage, setMesssage] = useState("")

@@ -1,6 +1,6 @@
 export default class EndPoint {
 
-    static mainEndpoint = "http://localhost/kuliah/hootel_services/public/api"
+    static mainEndpoint = "https://research.dygdaya.com/hootel_services/public/api"
     static authLogin = this.mainEndpoint + "/login"
     static authResetPassword = this.mainEndpoint + "/reset_password"
     static authRegister = this.mainEndpoint + "/register"

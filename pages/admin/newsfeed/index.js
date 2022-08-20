@@ -4,7 +4,7 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import FeedService from "../../api/feed_service"
 
-export default function index() {
+export default function Index() {
 
     const [feedList, setFeedList] = useState()
     const [messsage, setMesssage] = useState("")

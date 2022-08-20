@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import RoomListCustomer from "../../component/customer/room_list"
 import { useRouter } from "next/router"
 
-export default function room() {
+export default function Room() {
 
     const [displayedComponent, setDisplayedComponent] = useState()
     const router = useRouter()

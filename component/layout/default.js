@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
-export default function defaultLayout(props) {
+export default function DefaultLayout(props) {
 
     const [name, setName] = useState("")
 

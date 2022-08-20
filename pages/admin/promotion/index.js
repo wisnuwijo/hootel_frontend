@@ -4,7 +4,7 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import PromotionService from "../../api/promotion_service"
 
-export default function index() {
+export default function Index() {
 
     const [promotionList, setPromotionList] = useState()
     const [messsage, setMesssage] = useState("")
